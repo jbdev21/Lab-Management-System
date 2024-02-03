@@ -1,0 +1,189 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap';
+
+@import "font-awesome";
+
+@import "./app/styles.scss";
+/*************************** Theme Styles Section ****************************/
+
+.with-input-tr{
+    padding:0px !important;
+
+    input{
+        border:none;
+        background-color: transparent !important;
+    }
+}
+
+textarea.form-control{
+    min-height: 80px;
+}
+
+.btn{
+    color:#fff;
+    margin: 0px 2px;
+}
+
+.overlay{
+    z-index: 9999;
+    background-color:#1212124b;
+    color:#fff;
+    height: 100vh;
+    position:absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    display: none !important;
+
+    &.show-overlay{
+        display: block !important;
+    }
+}
+
+.overlay-body{
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.app-login .auth-background-holder{
+    background-image: url('../images/bg.jpeg') !important;
+}
+
+.hover-darken:hover{
+    background-color: #ccc !important;
+}
+
+.app-header{
+    box-shadow:none !important;
+}
+
+.sidepanel-inner{
+    box-shadow:none !important;
+}
+
+.app-wrapper{
+    min-height: 100vh;
+}
+
+
+.select2-container, .select2-selection {
+    width: 100% !important;
+    
+}
+
+
+.dark{
+    background: #121212 !important;
+    color: #fff  !important;
+
+   
+    h1, h2, h3, h4, h6, .stats-figure{
+        color: #fff !important;
+    } 
+    .app-card{
+        background: rgb(71, 71, 71) !important;
+        color: #fff !important;
+    }
+
+    .chart-div{
+        background: rgb(192, 192, 192) !important;
+    }
+    .stats-type{
+        color: #fff !important;	
+    }
+    .table{
+        color: #fff !important;
+    }
+    #canvas-linechart, .bi-chevron-down{
+        color: #fff !important;
+    }
+    .app-header{
+        background: rgb(71, 71, 71) !important;
+        color: #fff !important;
+    }
+    .sidepanel-inner{
+        background: rgb(71, 71, 71) !important;
+        color: #fff !important;
+    }
+    .app-nav, ul, li{
+        background: rgb(71, 71, 71) !important;
+        color: #fff !important;
+    }
+    a:hover{
+        color: rgb(192, 190, 190) !important;
+    }
+    .logo-text,a	{
+        color: #fff !important;
+    }
+    .active{
+        color: black !important;
+    }
+    .btn{
+        color: black !important;
+    }
+    .btn:hover{
+        color:green !important;
+    }
+    #submenu-2{
+        background: rgb(10, 9, 9) !important;
+    }
+    .app-notifications-dropdown .dropdown-menu {
+        background: rgb(71, 71, 71) !important;
+        color: #fff !important; 
+    }
+    .app-notifications-dropdown .dropdown-menu .dropdown-menu-title{
+        color: #fff !important;
+    }
+    .app-notifications-dropdown .dropdown-menu .item:hover{
+        background-color: rgb(105, 105, 105) !important;
+    }
+    .dropdown-menu .dropdown-item:hover{
+        background-color: rgb(105, 105, 105) !important;
+        color:#fff !important;
+    }
+
+    // card 
+    .card{
+        background-color: rgb(105, 105, 105) !important;
+        color:#fff !important;
+    }
+
+    .card-header-tabs{
+        background-color: rgb(105, 105, 105) !important;
+        color:#fff !important;  
+
+        .nav-item{
+            background-color: rgb(105, 105, 105) !important;
+            color:#fff !important;  
+
+            .active{
+                background-color: rgb(105, 105, 105) !important;
+                color:#fff !important;  
+                border-bottom:2px solid rgb(105, 105, 105) !important;
+            }
+        }
+    }
+
+    .breadcrumb{
+        .active{
+            color: #fff !important;
+        }
+    }
+
+    .pagination{
+        .page-item{
+            background-color: rgb(105, 105, 105) !important;
+            
+            a{
+                color: #fff !important;
+                background-color: rgb(105, 105, 105) !important;
+            }
+        }
+
+        
+    }
+}
